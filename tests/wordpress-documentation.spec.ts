@@ -17,7 +17,7 @@ test.describe('WordPress Admin Documentation', () => {
     
     // Fill login form
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     
     // Wait for dashboard to load
@@ -30,7 +30,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 02 - Media Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000); // Wait for admin bar to load
@@ -70,7 +70,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 03 - Pages Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000); // Wait for admin bar to load
@@ -103,7 +103,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 04 - Posts Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000); // Wait for admin bar to load
@@ -161,7 +161,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 05 - Appearance Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000); // Wait for admin bar to load
@@ -225,7 +225,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 06 - Block Editor Features', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -375,7 +375,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 07 - User Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -405,7 +405,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 08 - Custom Post Types', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -450,7 +450,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 09 - Forms Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -472,7 +472,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 10 - Multilingual WPML', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -494,7 +494,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 11 - Site Settings', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -527,7 +527,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 12 - Customizer and Widgets', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -562,7 +562,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 13 - Plugins Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -592,7 +592,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 14 - Tools and Import Export', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
@@ -630,7 +630,7 @@ test.describe('WordPress Admin Documentation', () => {
   test('Section 15 - Comments Management', async ({ page }) => {
     // Login first
     await page.fill('#user_login', 'accounts@grassriots.com');
-    await page.fill('#user_pass', 'd6nBpyY3n6dLLLVV4z9N');
+    await page.fill('#user_pass', 'xxx');
     await page.click('#wp-submit');
     await page.waitForLoadState('load');
     await page.waitForTimeout(2000);
