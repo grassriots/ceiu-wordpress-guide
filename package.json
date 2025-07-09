@@ -1,0 +1,30 @@
+{
+  "name": "ceiu-wordpress-documentation",
+  "version": "1.0.0",
+  "description": "Automated WordPress documentation with Playwright screenshots",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install",
+    "screenshots": "playwright test --reporter=null --project=chromium tests/wordpress-documentation.spec.ts"
+  },
+  "keywords": [
+    "wordpress",
+    "documentation",
+    "playwright",
+    "screenshots",
+    "automation"
+  ],
+  "author": "CEIU Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+} 
