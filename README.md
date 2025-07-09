@@ -86,8 +86,6 @@ await screenshotHelper.takeElementScreenshot(
 The system uses the following WordPress admin credentials (configured in global-setup.ts):
 - **Site**: https://ceiu-seic.lndo.site/
 - **Login URL**: https://ceiu-seic.lndo.site/wp-login.php?itsec-hb-token=backoffice
-- **Username**: accounts@grassriots.com
-- **Password**: d6nBpyY3n6dLLLVV4z9N
 
 ## Cursor IDE Integration
 
